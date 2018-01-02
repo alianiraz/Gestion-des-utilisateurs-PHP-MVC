@@ -1,0 +1,115 @@
+{
+    "ControllerAuthentification": {
+        "Controllername": "ControllerAuthentification",
+        "action": [
+            {
+                "name": "ActionIndex",
+                "access": [
+                    "all"
+                ]
+            },
+            {
+                "name": "ActionInscrire",
+                "access": [
+                    "all"
+                ]
+            },
+            {
+                "name": "ActionDeconnexion",
+                "access": [
+                    "admin",
+                    "user"
+                ]
+            }
+        ]
+    },
+    "ControllerHome": {
+        "Controllername": "ControllerHome",
+        "action": [
+            {
+                "name": "ActionIndex",
+                "access": [
+                    "user"
+                ]
+            },
+            {
+                "name": "ActionIndexAdmin",
+                "access": [
+                    "admin"
+                ]
+            },
+            {
+                "name": "ActionSuspendue",
+                "access": [
+                    "admin"
+                ]
+            },
+            {
+                "name": "ActionDebloquer",
+                "access": [
+                    "admin"
+                ]
+            },
+            {
+                "name": "ActionRendreadmin",
+                "access": [
+                    "admin"
+                ]
+            }
+        ]
+    },
+    "ControllerModifier": {
+        "Controllername": "ControllerModifier",
+        "action": [
+            {
+                "name": "ActionIndex",
+                "access": [
+                    "admin",
+                    "user"
+                ]
+            },
+            {
+                "name": "ActionMotdepasse",
+                "access": [
+                    "admin",
+                    "user"
+                ]
+            }
+        ]
+    },
+    "ControllerMessage": {
+        "Controllername": "ControllerMessage",
+        "action": [
+            {
+                "name": "ActionIndex",
+                "access": [
+                    "admin","user"
+                ]
+            },
+            {
+                "name": "ActionSendMessage",
+                "access": [
+                    "admin",
+                    "user"
+                ]
+            }
+        ]
+    },
+    "ControllerSearch": {
+        "Controllername": "ControllerSearch",
+        "action": [
+            {
+                "name": "ActionIndex",
+                "access": [
+                    "admin"
+                ]
+            },
+            {
+                "name": "ActionSearchUser",
+                "access": [
+                    "admin","user"
+                ]
+            }
+        ]
+    }
+}

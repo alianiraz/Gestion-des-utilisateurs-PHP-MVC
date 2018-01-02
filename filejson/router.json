@@ -1,0 +1,98 @@
+{
+    "ControllerAuthentification": {
+        "Controllername": "ControllerAuthentification",
+        "action": [
+            {
+                "name": "ActionIndex",
+                "param": 0,
+                "headerfooter": false
+            },
+            {
+                "name": "ActionInscrire",
+                "param": 0,
+                "headerfooter": false
+            },
+            {
+                "name": "ActionDeconnexion",
+                "param": 0,
+                "headerfooter": true
+            }
+        ]
+    },
+    "ControllerHome": {
+        "Controllername": "ControllerHome",
+        "action": [
+            {
+                "name": "ActionIndex",
+                "param": 0,
+                "headerfooter": true
+            },
+            {
+                "name": "ActionIndexAdmin",
+                "param": 0,
+                "headerfooter": true
+            },
+            {
+                "name": "ActionSuspendue",
+                "param": 1,
+                "headerfooter": false
+            },
+            {
+                "name": "ActionDebloquer",
+                "param": 1,
+                "headerfooter": false
+            },
+            {
+                "name": "ActionRendreadmin",
+                "param": 1,
+                "headerfooter": false
+            }
+        ]
+    },
+    "ControllerModifier": {
+        "Controllername": "ControllerModifier",
+        "action": [
+            {
+                "name": "ActionIndex",
+                "param": 0,
+                "headerfooter": true
+            },
+            {
+                "name": "ActionMotdepasse",
+                "param": 0,
+                "headerfooter": true
+            }
+        ]
+    },
+    "ControllerMessage": {
+        "Controllername": "ControllerMessage",
+        "action": [
+            {
+                "name": "ActionIndex",
+                "param": 0,
+                "headerfooter": true
+            },
+            {
+                "name": "ActionSendMessage",
+                "param": 0,
+                "headerfooter": false
+            }
+        ]
+    },
+    "ControllerSearch": {
+        "Controllername": "ControllerSearch",
+        "action": [
+            {
+                "name": "ActionIndex",
+                "param": 0,
+                "headerfooter": false
+            },
+            {
+                "name": "ActionSearchUser",
+                "param": 1,
+                "headerfooter": false
+            }
+        ]
+    }
+
+}
